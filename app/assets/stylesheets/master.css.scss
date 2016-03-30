@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+
+.navbar {
+  border-radius: 0;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('use_your_illusion.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  color: #7DDEFF;
+}
