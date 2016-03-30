@@ -15,3 +15,43 @@
   font-size: 32px;
   color: #7DDEFF;
 }
+
+body {
+  background: url('/assets/diagonal_striped_brick.png');
+}
+
+.hero {
+  background: url('hero5.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:380px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frosty h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+.frosty h2 {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  color: #D7F3FC;
+}
+
+.btn {
+
+}
