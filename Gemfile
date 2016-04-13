@@ -6,6 +6,7 @@ gem 'rails_12factor', group: :production
 gem 'carrierwave'
 gem 'figaro'
 gem "fog", "~> 1.3.1"
+gem 'mini_magick', '~>4.3.1'
 
 # Gemfile for simple form
 gem 'simple_form'
