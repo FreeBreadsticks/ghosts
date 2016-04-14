@@ -87,3 +87,28 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .booyah-box h2 {
   color: #63AFC9;
 }
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  height: 130px;
+  opacity: 0.75;
+  border-radius: 3px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #D6D6D6 #B5B5B5 #B5B5B5 #D6D6D6;
+  padding: 20px;
+}
+
+.lesson a {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
