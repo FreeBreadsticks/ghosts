@@ -6,9 +6,13 @@
   <p>
     <%= current_lesson.subtitle %>
   </p>
+  <%= link_to course_path(current_lesson.section.course), class: 'btn btn-info pull-left' do %>
+    <span class="glyphicon glyphicon-menu-hamburger"></span> &nbsp;
+    Return to Course
+  <% end %>
 
   <% if current_lesson.next_lesson.present? %>
-    <%= link_to lesson_path(current_lesson.next_lesson), class: 'btn btn-default pull-right' do %>
+    <%= link_to lesson_path(current_lesson.next_lesson), class: 'btn btn-info pull-right' do %>
       Next Lesson &nbsp;
       <span class="glyphicon glyphicon-menu-right"></span>
     <% end %>
